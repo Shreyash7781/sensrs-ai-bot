@@ -1,0 +1,133 @@
+SEnSRS - IIT Ropar
+
++01881-232632
+
+Terrestrial Imaging Hyperspectral Sensor
+
+Advanced SPECIM IQ portable imaging system for high-resolution spectral analysis in field and laboratory.
+
+System Architecture & Output
+
+SPECIM IQ Hyperspectral Camera
+
+A compact, portable imaging system developed by SPECIM (Finland) for field and laboratory use. It operates in the VNIR range (≈400–1000 nm) with 204 spectral bands, capturing a full spectrum for every pixel.
+
+Primary Role
+
+Using a push-broom imaging principle, it provides high spectral accuracy with a ~7 nm spectral resolution. Includes onboard processing, touchscreen control, and built-in calibration.
+
+Trimble T110 Interface
+
+Integrated touchscreen-based control and analysis system designed for efficient hyperspectral imaging. Enables precise control of exposure time, frame rate, and radiometric calibration.
+
+Primary Role
+
+Supports real-time visualization of spectral signatures, band selection, false-color rendering, and pixel-wise classification without an external computer.
+
+Basic Processing Output
+
+Standard output from SPECIM IQ includes radiometrically corrected reflectance spectra using dark and white reference calibration, ensuring accurate reflectance values for quantitative analysis.
+
+Primary Role
+
+Pixel-wise spectral signatures identify chemical composition, moisture content, vegetation health, and material differences across various research fields.
+
+Data Acquisition Principle
+
+The data acquisition in the SPECIM IQ hyperspectral camera is based on a push-broom scanning mechanism, where spectral data are captured line by line as the camera or target moves.
+
+Each hyperspectral data cube is geo-referenced with location coordinates when mounted with an external GPS module. This capability is particularly useful for precision agriculture, environmental monitoring, and field surveys, requiring high spectral accuracy and portable operation.
+
+Technical Capabilities
+
+Spectral range: VNIR, ~400–1000 nm
+
+Spectral bands: 204 contiguous bands
+
+Spectral resolution: ~7 nm
+
+Imaging principle: Push-broom (line-scan) hyperspectral imaging
+
+Spatial resolution: ~512 pixels per line
+
+Calibration: Built-in dark and white reference for reflectance data
+
+Interface: Integrated touchscreen with real-time visualization
+
+Processing: Onboard data acquisition, preprocessing, and basic analysis
+
+Data output: Calibrated hyperspectral data cubes in standard formats
+
+Operation: Portable, battery-powered; handheld or tripod-mounted
+
+Integration: Supports external GPS for geo-referenced measurements
+
+Field & Lab Operations
+
+Field System Setup
+
+Specim IQ Hyperspectral Camera system setup in field for terrestrial survey.
+
+Lab Setup
+
+System setup in lab with halogen lamps for controlled illumination and analysis.
+
+Field Spectra
+
+Reflectance spectra obtained by camera at field and programmed using python.
+
+Lab Spectra
+
+Reflectance spectra obtained by camera at lab and programmed using python.
+
+Workshop & Training
+
+Theoretical Training
+
+Comprehensive remote sensing theory focusing on hyperspectral data acquisition and spectral signature analysis.
+
+Hands-on Experience
+
+Practical hands-on experience of SPECIM IQ Camera, including setup, calibration, and real-time visualization.
+
+Service Applications
+
+Precision agriculture: Monitoring crop health
+
+Food quality and safety: Detecting defects
+
+Material identification: Differentiating minerals
+
+Environmental monitoring: Assessing soil properties
+
+Biomedical and life sciences research
+
+Industrial inspection: Quality control
+
+Chlorophyll content & nutrient stress
+
+Vegetation cover analysis
+
+Water quality assessment
+
+Non-contact biological analysis
+
+Common Questions
+
+What is the SPECIM IQ camera used for?
+
+What spectral range does the SPECIM IQ operate in?
+
+How does the SPECIM IQ acquire hyperspectral data?
+
+Does the SPECIM IQ require an external computer?
+
+Can SPECIM IQ data be geo-referenced?
+
+In which applications is SPECIM IQ commonly used?
+
+Ready to Discuss Your Project?
+
+Book a free consultation with our Hyperspectral Sensor experts and get professional insights tailored to your needs.
+
+Book an Appointment

@@ -1,0 +1,143 @@
+SEnSRS - IIT Ropar
+
++01881-232632
+
+Bathymetry Survey
+
+Precision underwater mapping using autonomous catamaran platforms and survey-grade echo sounders.
+
+Advanced Hydrographic Ecosystem
+
+Bathycat USV
+
+The BathyCat is a compact catamaran‑type autonomous survey boat designed for bathymetric surveys. The catamaran configuration provides high stability on water and allows integration of sensors such as GNSS receivers and echo sounders.
+
+Primary Role
+
+The USV can be remotely operated or programmed to follow predefined survey lines, ensuring systematic coverage and observer safety.
+
+Futaba T6K Transmitter
+
+The BathuCat USV is operated using a Futaba long-range RC transmitter. The controller operates on 2.4 GHz frequency with 8-channel control and frequency-hopping technology to ensure stable communication during survey operations.
+
+Primary Role
+
+Provides smooth throttle control and reliable long-range communication, allowing precise navigation and maneuvering of the USV during bathymetric surveys.
+
+Bathylogger BL200 Ecosounder
+
+The BathyLogger BL200 is a survey‑grade single beam echo sounder designed for hydrographic surveys. It measures water depth by transmitting acoustic pulses toward the waterbed and calculating the return time of the echo.
+
+Primary Role
+
+The system records depth together with GNSS coordinates for accurate georeferenced bathymetric mapping, suitable for reservoir and river analysis.
+
+Operational Excellence
+
+The bathymetric survey is conducted using a BathyCat Unmanned Surface Vehicle (USV) equipped with the BathyLogger BL200 survey‑grade single beam echo sounder. The system enables safe hydrographic data collection in reservoirs, lakes, ponds, and rivers while the operator remains onshore. During the survey, the BathyCat USV navigates along predefined survey lines across the water body.
+
+The BL200 echo sounder continuously records depth measurements while the GNSS receiver logs the geographic location of each observation. The collected data forms the basis for bathymetric surface modelling. This integrated approach ensures high-resolution depth logging suitable for bathymetric mapping and sediment analysis, fully compatible with GIS and hydrographic software for bathymetric surface generation.
+
+Technical Capabilities
+
+Autonomous or remote‑controlled BathyCat USV platform for hydrographic data collection.
+
+Survey‑grade single beam echo sounder (BathyLogger BL200) for accurate depth measurements.
+
+Real‑time GNSS positioning for georeferenced depth recording.
+
+High‑resolution depth logging suitable for bathymetric mapping and sediment analysis.
+
+Compatible with GIS and hydrographic software for bathymetric surface generation.
+
+Stable catamaran design for operation in reservoirs, lakes, ponds, and rivers.
+
+Long-range RC communication with frequency-hopping technology.
+
+Full integration with GNSS receivers for centimeter-level precision.
+
+Compact and portable system for rapid deployment in remote locations.
+
+Safe hydrographic data collection with operator remaining onshore.
+
+Field Operations Workflow
+
+System Setup
+
+System setup & battery check for the bathymetry survey at Ropar head works.
+
+Initialization
+
+GNSS and echo sounder initialization at Ropar head works to ensure stable signal lock.
+
+Calibration
+
+Test run & calibration of echo sounder for the bathymetry survey at the downstream of Kol Dam, HP.
+
+Survey Execution
+
+Full-scale survey execution at Bhakara Dam, HP, following predefined survey transects.
+
+Workshop & Training
+
+Classroom Session
+
+An interactive classroom session demonstrating bathymetric surveying principles, equipment operation, and real-time data processing techniques for high-precision geospatial applications.
+
+Hands-on Demo
+
+Hands-on demonstration of the BathyCat USV and BathyLogger BL200 echo sounder was conducted to show the system setup, remote controller operation, and real-time depth data acquisition integrated with GNSS positioning.
+
+Field Training
+
+Field training on USV-based bathymetric surveying was conducted to provide practical knowledge on survey planning, deployment of the BathyCat platform, navigation along survey transects, and systematic depth data collection in water bodies.
+
+Data Modeling
+
+Bathymetric data processing and surface modeling were performed to generate depth points, bathymetric surfaces, contour maps, and digital bathymetric models (DBM) using hydrographic and GIS software from the collected echo sounding and GNSS data.
+
+Service Applications
+
+Reservoir capacity estimation
+
+Sedimentation studies
+
+River channel analysis
+
+Dredging operations
+
+Navigation and waterway management
+
+Environmental and hydrological studies
+
+Marine habitat mapping
+
+Bridge scour assessment
+
+Aquaculture site selection
+
+Coastal erosion monitoring
+
+Common Questions
+
+What equipment is used for bathymetric survey?
+
+What type of echo sounder is used?
+
+How is depth measured in bathymetric surveys?
+
+What outputs are generated from bathymetric surveys?
+
+Where are bathymetric surveys commonly used?
+
+Why are USVs used in bathymetric surveys?
+
+How is the BathyCat USV controlled during surveys?
+
+How is depth data linked with geographic location?
+
+Ready to Discuss Your Project?
+
+Book a free consultation with our Bathymetry Survey experts and get professional insights tailored to your needs.
+
+Book an Appointment

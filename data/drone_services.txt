@@ -1,0 +1,149 @@
+SEnSRS - IIT Ropar
+
++01881-232632
+
+Drone Mapping & Surveying
+
+Advanced aerial surveying methods using RTK-enabled UAVs for centimeter-level geospatial accuracy.
+
+Survey Equipment Ecosystem
+
+RTK Drone
+
+Real Time Kinematic (RTK) Drone Survey is an advanced aerial surveying method that uses an unmanned aerial vehicle (UAV) equipped with an RTK-enabled GNSS receiver to capture highly accurate geospatial data. RTK technology improves the positional accuracy of drone data, allowing centimeter-level accuracy without the need for extensive ground control points.
+
+Primary Role
+
+The drone equipped with a high-resolution camera and RTK GNSS receiver was used to capture aerial images in automatic flight mode.
+
+Remote Controller
+
+The remote controller features a built-in high-brightness touchscreen display that allows the operator to monitor live video feed, flight status, satellite connection, RTK signal strength, and mission parameters in real time. The dual external antennas improve signal stability and ensure reliable data transmission, which is essential for RTK-based aerial surveying.
+
+Primary Role
+
+Multiple control buttons, joysticks, and customizable keys are provided on the controller for accurate drone navigation and camera control. The built-in battery indicator and status lights help monitor the power level during field operations, ensuring uninterrupted survey work.
+
+Base Station
+
+The Base station continuously receives satellite signals from multiple GNSS constellations and transmits correction data to the drone controller. These corrections reduce positioning errors caused by atmospheric disturbances and satellite inaccuracies, allowing the drone to achieve centimeter-level accuracy.
+
+Primary Role
+
+The use of an RTK base station improves the overall precision of aerial survey data and reduces the need for multiple ground control points. This ensures reliable results for topographic mapping, volume calculation, construction survey, and GIS applications.
+
+RTK Drone Survey Excellence
+
+The survey of the project area was carried out using an RTK-enabled drone system consisting of a drone, remote controller, and GNSS RTK base station to achieve high-precision results. Our drone, equipped with a high-resolution camera and RTK GNSS receiver, captures georeferenced aerial images in automatic flight mode, ensuring reliable data collection for complex engineering and GIS mapping projects.
+
+The drone was operated using a professional remote controller with a built-in display, which allowed real-time monitoring of flight status, satellite connection, and RTK signal during the survey. An RTK base station was installed on a stable location to provide real-time correction data to the drone, which improved positional accuracy to centimeter level. With the help of RTK correction, the drone captured accurate georeferenced images, which were processed using photogrammetry software to generate Orthomosaic, DEM, DSM, and contour data in the required coordinate system and datum.
+
+Technical Capabilities
+
+Provides centimeter-level positioning accuracy using RTK GNSS correction.
+
+Supports real-time communication between drone, controller, and base station.
+
+Equipped with high-resolution camera for detailed aerial image capture.
+
+Capable of automatic grid flight mission planning for full area coverage.
+
+Supports multi-GNSS satellites (GPS / GLONASS / Galileo / BeiDou) for better accuracy.
+
+Enables real-time flight monitoring through smart remote controller display.
+
+Reduces the requirement of Ground Control Points (GCPs) using RTK correction.
+
+Generates accurate outputs such as Orthomosaic, DEM, DSM, and Contour maps.
+
+Provides stable long-range signal transmission with dual-antenna controller.
+
+Suitable for topographic survey, construction, mining, land mapping, and GIS work.
+
+Ensures fast data collection with high reliability compared to conventional survey methods.
+
+Compatible with photogrammetry and GIS software like Pix4D, DJI Terra, Agisoft, and ArcGIS.
+
+Field Operations Workflow
+
+Network Connection
+
+Internet connection was established in the remote controller to receive RTK correction signals from the CORS network for high-accuracy positioning.
+
+Mission Planning
+
+The survey area was checked and the flight mission was planned in automatic grid mode using mission planning software.
+
+Pre-flight Verification
+
+Before takeoff, RTK status, satellite count, network connection, speed, overlap % and battery levels were verified to ensure proper accuracy.
+
+Data Acquisition
+
+The drone was flown over the project area to capture high-resolution images with required overlap, while continuously receiving correction data from the network base station.
+
+Workshop & Practical Training
+
+Classroom Session
+
+An interactive classroom session demonstrating Drone surveying principles, equipment operation, and real-time data processing techniques for high-precision geospatial applications.
+
+Hands-on Demo
+
+Hands-on demonstration of RTK drone survey equipment was conducted to show the setup, operation, and real-time data acquisition using drone, controller, and Network CORS correction system.
+
+Field Training
+
+Field training on RTK drone surveying was conducted to provide practical knowledge on drone setup, mission planning, Network CORS connection, and accurate aerial data collection.
+
+Data Processing
+
+Drone data processing and surface modeling were performed to generate accurate orthomosaic, DEM, DSM, and contour data using photogrammetry software from captured aerial images.
+
+Industry Applications
+
+Topographic Survey – Terrain & contour mapping
+
+Hydrographic Cross-Section Survey - Riverbed elevation mapping
+
+Reservoir Survey – Sedimentation monitoring
+
+Dam Alignment – Structural axis control
+
+Highway Corridor – Road alignment mapping
+
+Earthwork Analysis – Cut-fill volume estimation
+
+Control Network – Geodetic reference points
+
+GIS Mapping – Spatial data integration
+
+Forest Boundary Survey- Protected area boundary mapping
+
+Sand Mining Survey
+
+Riverbed volume estimation
+
+Common Questions
+
+What correction technique is used in RTK drone surveying?
+
+What coordinate reference system is used in RTK drone survey?
+
+How is accuracy maintained during RTK drone survey?
+
+What data outputs are generated from RTK drone survey?
+
+What is the role of Network CORS in drone survey?
+
+What errors can affect RTK drone survey accuracy?
+
+Where is RTK drone survey commonly used?
+
+Do you provide post-processing if RTK signal is not stable?
+
+Ready to Discuss Your Project?
+
+Book a free consultation with our Drone Survey experts and get professional insights tailored to your needs.
+
+Book an Appointment

@@ -1,0 +1,355 @@
+SEnSRS - IIT Ropar
+
++01881-232632
+
+Projects
+
+Explore our ongoing and completed projects.
+
+Research Project
+
+Ongoing
+
+1
+
+Sustainable Agricultural Planning for Small Farm Holders in the Bist Doab Region of Punjab
+
+Sponsored Agency:
+
+MISTI Global Seed Funds
+
+Research Project
+
+Ongoing
+
+2
+
+Terrain Modelling and Its Application in Landslide Hazard/Risk Assessment under ISRO's Disaster Management Support Programme (DMSP)
+
+Sponsored Agency:
+
+ISRO-DMSP
+
+Research Project
+
+Ongoing
+
+3
+
+Permafrost Destabilization Induced Mass Wasting Vulnerable Zones Modelling in Higher Himalayan Regions (Bhagirathi–Alaknanda Valley) through Snow Cover–Climate–Terrain Interactive Mechanism Employing Deep Learning Techniques
+
+Sponsored Agency:
+
+ISRO-DMSP
+
+Research Project
+
+Ongoing (2023–2026)
+
+4
+
+Deep Learning Based Automated Mapping of Glacial Lakes in Himalayas under DST National Geospatial Programme (NGP)
+
+Sponsored Agency:
+
+DST National Geospatial Programme (NGP)
+
+Research Project
+
+Ongoing
+
+5
+
+Development of Spatial Decision Support System for Mapping, Monitoring, and Modeling of Snow Avalanches
+
+Sponsored Agency:
+
+MoES
+
+Research Project
+
+Ongoing
+
+6
+
+AI-Driven Decision-Support Framework for Landslide Typology, Risk Communication, and Resilient Infrastructure Planning in the Indian Himalayas and Western Ghats
+
+Sponsored Agency:
+
+ICSSR
+
+Consultancy Project
+
+Ongoing
+
+7
+
+Preparation of State Specific Action Plan for Water Resources, Punjab
+
+Sponsored Agency:
+
+Water Resources Department, Punjab
+
+Consultancy Project
+
+Ongoing
+
+8
+
+Comprehensive Design and Survey of Sustainable Lift Irrigation Schemes in Changer Area of Punjab
+
+Sponsored Agency:
+
+Water Resources Department, Punjab
+
+Consultancy Project
+
+Ongoing
+
+9
+
+Preparation of State Specific Action Plan for Water Resources, Haryana
+
+Sponsored Agency:
+
+HIRMI, Government of Haryana
+
+Consultancy Project
+
+Ongoing
+
+10
+
+Providing Technical Guideline for UAV Data Collection, Digitization, Geo-Referencing & Super-Imposition of Layout Plans and Development of GIS System for Properties under PUDA and Other Special Development Authorities
+
+Sponsored Agency:
+
+Punjab Urban Planning and Development Authority (PUDA)
+
+Consultancy Project
+
+Ongoing
+
+11
+
+River Audit Work and Sand Replenishment Study of Punjab
+
+Sponsored Agency:
+
+Punjab Government, Department of Mines and Geology
+
+Consultancy Project
+
+Ongoing (Approved & Started)
+
+12
+
+Quantification of Sand Mining in Punjab
+
+Sponsored Agency:
+
+Punjab Government, Department of Mines and Geology
+
+Consultancy Project
+
+Ongoing
+
+13
+
+Inspection of Railway Bridge at Sutlej River
+
+Sponsored Agency:
+
+Northern Railways
+
+Consultancy Project
+
+Ongoing
+
+14
+
+Proposing the Slope Rehabilitation Measures for Sites near RMS Chail, Himachal Pradesh
+
+Sponsored Agency:
+
+Garrison Engineer
+
+Research Project
+
+Approved (Letter Awaited)
+
+15
+
+Development of Remote Sensing Based Dynamic Decision Support System for Avalanche Susceptibility Mapping Using AI/ML Techniques for NW-Himalaya (DGRE, DRDO)
+
+Sponsored Agency:
+
+DGRE, DRDO
+
+Consultancy Project
+
+MoU Signing Pending
+
+16
+
+Consultancy for Detailed Study of Chouldari Dam at Port Blair for Structural Stability, Capacity Augmentation, and Allied Services
+
+Sponsored Agency:
+
+Commander Works Engineer, Minniebay, Port Blair
+
+Research Project
+
+Completed
+
+17
+
+Assessment of Hydro-Climatic Extremes and Related Environmental Consequences in Punjab, India
+
+Sponsored Agency:
+
+IIT Ropar (ISIRD - Institute Scheme for Innovative Research & Development)
+
+Research Project
+
+Completed
+
+18
+
+Development of Low-Cost Artificial Intelligence System for Early Detection of Landslide
+
+Sponsored Agency:
+
+DST-NGP
+
+Research Project
+
+Completed (Extension Possible)
+
+19
+
+Slope Monitoring and Landslide Hazard Quantification for Hilly Roads
+
+Sponsored Agency:
+
+NHAI
+
+Consultancy Project
+
+Completed
+
+20
+
+Fixing of Control Points with DGPS at Both Ends of USBRL Railway Tunnels (5 Nos.) Located at Granmorh & Bakal, Reasi District, Jammu & Kashmir
+
+Sponsored Agency:
+
+Max Infra Pvt Ltd
+
+Consultancy Project
+
+Completed
+
+21
+
+Bathymetric Survey of Ranjit Sagar Dam, Punjab
+
+Sponsored Agency:
+
+Water Resources Department, Punjab
+
+Consultancy Project
+
+Completed
+
+22
+
+Delineation of Soil Erosion Hotspots and Assessment of Sediment Transfer through Magnitude-Frequency Analysis in Catchment of Bhakra Dam
+
+Sponsored Agency:
+
+Bhakra Beas Management Board (BBMB), India
+
+Consultancy Project
+
+Completed
+
+23
+
+Survey of Operational Area of Chandigarh International Airport
+
+Sponsored Agency:
+
+Chandigarh International Airport Limited (CHIAL)
+
+Consultancy Project
+
+Completed
+
+24
+
+Fixing of Control Points with DGPS at Both Ends of Railway Tunnels (8 Nos.) near Anandpur Sahib (Punjab) and Bilaspur (Himachal Pradesh)
+
+Sponsored Agency:
+
+Max Infra Pvt Ltd
+
+Consultancy Project
+
+Completed
+
+25
+
+Soil Erosion Hotspot Study for Catchment Area of Ranjit Sagar Dam Project
+
+Sponsored Agency:
+
+Water Resources Department, Punjab
+
+Consultancy Project
+
+Completed
+
+26
+
+Survey and Establishment of the Actual Natural Flow Path of River Siswan
+
+Sponsored Agency:
+
+Omax Ltd
+
+Consultancy Project
+
+Completed
+
+27
+
+SWAN River Survey and Hydrological Studies
+
+Sponsored Agency:
+
+Water Resources Department, Punjab
+
+Consultancy Project
+
+Completed
+
+28
+
+Proposing the Remedial Measures for the Retaining Wall Failure in Deudhar Village (Takoli–Kullu Highway)
+
+Sponsored Agency:
+
+National Highways Authority of India (NHAI)
+
+Consultancy Project
+
+Completed
+
+29
+
+Establishment of Bench Marks at Dam Sites in Kandi Area (8 Dams)
+
+Sponsored Agency:
+
+N/A
