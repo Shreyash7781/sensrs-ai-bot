@@ -24,6 +24,17 @@ function App() {
     });
   }, [messages, loading]);
 
+  // Listen for custom open event if dispatched from elsewhere
+  useEffect(() => {
+    const openChat = () => setIsOpen(true);
+    window.addEventListener("open-sensrs-chat", openChat);
+    return () => {
+      window.removeEventListener("open-sensrs-chat", openChat);
+    };
+  }, []);
+
+
+
   const sendMessage = async () => {
     const trimmedQuestion = question.trim();
 
@@ -41,45 +52,160 @@ function App() {
     setQuestion("");
     setLoading(true);
 
+    let streamStarted = false;
+
     try {
-      const response = await fetch(`${import.meta.env.VITE_API_URL}/chat`, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          question: trimmedQuestion,
-        }),
-      });
+      const response = await fetch(
+        `${import.meta.env.VITE_API_URL}/chat`,
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            question: trimmedQuestion,
+          }),
+        }
+      );
 
       if (!response.ok) {
         throw new Error("Server returned an error");
       }
 
-      const data = await response.json();
+      const contentType =
+        response.headers.get("content-type") || "";
+
+      // Support existing non-streaming JSON responses too.
+      if (contentType.includes("application/json")) {
+        const data = await response.json();
+
+        setMessages((prev) => [
+          ...prev,
+          {
+            role: "assistant",
+            content: data.answer,
+            sources: data.sources || [],
+          },
+        ]);
+
+        return;
+      }
+
+      if (!response.body) {
+        throw new Error("Streaming is not supported by this response");
+      }
+
+      // Add an empty assistant message to fill progressively.
+      streamStarted = true;
 
       setMessages((prev) => [
         ...prev,
         {
           role: "assistant",
-          content: data.answer,
-          sources: data.sources || [],
-        },
-      ]);
-    } catch (error) {
-      setMessages((prev) => [
-        ...prev,
-        {
-          role: "assistant",
-          content:
-            "Sorry, I couldn't connect to the SEnSRS AI server. Please try again.",
+          content: "",
           sources: [],
         },
       ]);
+
+      const reader = response.body.getReader();
+      const decoder = new TextDecoder();
+      let buffer = "";
+
+      const updateLastAssistant = (updater) => {
+        setMessages((prev) => {
+          const next = [...prev];
+
+          for (let i = next.length - 1; i >= 0; i--) {
+            if (next[i].role === "assistant") {
+              next[i] = updater(next[i]);
+              break;
+            }
+          }
+
+          return next;
+        });
+      };
+
+      const processEvent = (line) => {
+        if (!line.trim()) return;
+
+        const event = JSON.parse(line);
+
+        if (event.type === "chunk") {
+          updateLastAssistant((message) => ({
+            ...message,
+            content: message.content + event.text,
+          }));
+        } else if (event.type === "done") {
+          updateLastAssistant((message) => ({
+            ...message,
+            content: event.answer,
+            sources: event.sources || [],
+          }));
+        } else if (event.type === "error") {
+          updateLastAssistant((message) => ({
+            ...message,
+            content: event.message,
+          }));
+        }
+      };
+
+      while (true) {
+        const { value, done } = await reader.read();
+
+        if (done) break;
+
+        buffer += decoder.decode(value, { stream: true });
+
+        const lines = buffer.split("\n");
+        buffer = lines.pop() || "";
+
+        for (const line of lines) {
+          processEvent(line);
+        }
+      }
+
+      buffer += decoder.decode();
+
+      if (buffer.trim()) {
+        processEvent(buffer);
+      }
+    } catch (error) {
+      const errorMessage =
+        "Sorry, I couldn't connect to the SEnSRS AI server. Please try again.";
+
+      if (streamStarted) {
+        setMessages((prev) => {
+          const next = [...prev];
+
+          for (let i = next.length - 1; i >= 0; i--) {
+            if (next[i].role === "assistant") {
+              next[i] = {
+                ...next[i],
+                content: errorMessage,
+                sources: [],
+              };
+              break;
+            }
+          }
+
+          return next;
+        });
+      } else {
+        setMessages((prev) => [
+          ...prev,
+          {
+            role: "assistant",
+            content: errorMessage,
+            sources: [],
+          },
+        ]);
+      }
     } finally {
       setLoading(false);
     }
   };
+
 
   const handleKeyDown = (event) => {
     if (event.key === "Enter" && !event.shiftKey) {
@@ -103,31 +229,22 @@ function App() {
 
     {/* ================= DUMMY SEnSRS WEBSITE ================= */}
 
-    <div className="demo-watermark">
-  DEMO • SEnSRS WEBSITE
-</div>
     <header className="site-header">
       <div className="logo-area">
-        <div className="logo-mark">S</div>
+  <img
+    src="/sensrs-logo.png"
+    alt="SEnSRS - IIT Ropar"
+    className="sensrs-logo"
+  />
+  <div>
+    <div className="logo-text">SEnSRS</div>
+    <div className="logo-subtitle">
+      Centre of Excellence · IIT Ropar
+    </div>
+  </div>
+</div>
 
-        <div>
-          <div className="logo-text">SEnSRS</div>
-          <div className="logo-subtitle">
-            Centre of Excellence • IIT Ropar
-          </div>
-        </div>
-      </div>
 
-      <nav>
-        <span>Home</span>
-        <span>About</span>
-        <span>Services</span>
-        <span>Research</span>
-        <span>Opportunities</span>
-        <span>Events</span>
-        <span>Gallery</span>
-        <span>Contact</span>
-      </nav>
     </header>
 
     <section className="hero">
@@ -149,86 +266,49 @@ function App() {
         </p>
 
         <div className="hero-buttons">
-          <button>Explore SEnSRS</button>
-          <button className="outline-btn">
-            Contact Us
-          </button>
+          <button
+  onClick={() => {
+    window.location.href = "https://sensrs.com/";
+  }}
+>
+  Explore SEnSRS
+</button>
+          <button
+  className="outline-btn"
+  onClick={() => {
+    window.location.href = "https://sensrs.com/contact/";
+  }}
+>
+  Contact Us
+</button>
         </div>
       </div>
     </section>
 
-    <section className="features">
 
-      <div className="feature-card">
-        <div className="feature-icon">◈</div>
-        <h2>Advanced Geospatial Technologies</h2>
-        <p>
-          Advanced geospatial technologies for monitoring,
-          mapping and analysis.
-        </p>
-      </div>
 
-      <div className="feature-card">
-        <div className="feature-icon">⌁</div>
-        <h2>Comprehensive Field Research</h2>
-        <p>
-          Field-based research and environmental assessment
-          for sustainable development.
-        </p>
-      </div>
+    <section className="services-section chatbot-about-section">
+  <div className="section-heading">
+    <span>YOUR AI ASSISTANT</span>
+    <h2>Meet the SEnSRS AI Assistant</h2>
+    <p className="chatbot-description">
+      The SEnSRS AI Assistant is designed to help you quickly find
+      information about the Centre of Excellence for Socio-Environmental
+      Sustainability of River Sand Mining (SEnSRS) at IIT Ropar.
+      Ask questions about research activities, internship opportunities,
+      PhD programmes, services, and other initiatives. Powered by AI
+      and information related to SEnSRS, it makes exploring the centre's
+      work easier and more convenient.
+    </p>
 
-      <div className="feature-card">
-        <div className="feature-icon">◎</div>
-        <h2>Policy Engagement</h2>
-        <p>
-          Scientific research supporting responsible policy
-          and environmental governance.
-        </p>
-      </div>
-
-    </section>
-
-    <section className="services-section">
-
-      <div className="section-heading">
-        <span>WHAT WE DO</span>
-        <h2>Our Services</h2>
-      </div>
-
-      <div className="service-grid">
-
-        <div className="service-card">
-          <div className="service-image drone"></div>
-          <h3>Drone Mapping & Surveying</h3>
-        </div>
-
-        <div className="service-card">
-          <div className="service-image dgps"></div>
-          <h3>DGPS Surveying</h3>
-        </div>
-
-        <div className="service-card">
-          <div className="service-image water"></div>
-          <h3>Bathymetry</h3>
-        </div>
-
-        <div className="service-card">
-          <div className="service-image web"></div>
-          <h3>Web Development</h3>
-        </div>
-
-        <div className="service-card">
-          <div className="service-image dashboard"></div>
-          <h3>Dashboard Development</h3>
-        </div>
-
-        <div className="service-card">
-          <div className="service-image app"></div>
-          <h3>App Development</h3>
-        </div>
-
-      </div>
-    </section>
+    <button
+      className="primary-btn"
+      onClick={() => setIsOpen(true)}
+    >
+      Ask the AI Assistant
+    </button>
+  </div>
+</section>
 
     {/* ================= YOUR ORIGINAL CHATBOT STARTS HERE ================= */}
 
@@ -237,8 +317,12 @@ function App() {
 
           {/* Header */}
           <div className="chat-header">
-            <div className="header-info">
-              <div className="bot-avatar">S</div>
+           <div className="header-info">
+  <img
+    src="/sensrs-logo.png"
+    alt="SEnSRS Logo"
+    className="chatbot-logo"
+  />
 
               <div>
                 <h2>SEnSRS AI Assistant</h2>
@@ -250,12 +334,23 @@ function App() {
               </div>
             </div>
 
-            <button
-              onClick={clearChat}
-              className="clear-button"
-            >
-              Clear
-            </button>
+            <div className="header-actions">
+  <button
+    onClick={clearChat}
+    className="clear-button"
+  >
+    Clear
+  </button>
+
+  <button
+    onClick={() => setIsOpen(false)}
+    className="close-chat-button"
+    aria-label="Close chatbot"
+    title="Close chatbot"
+  >
+    ✕
+  </button>
+</div>
           </div>
 
           {/* Messages */}
@@ -345,20 +440,24 @@ function App() {
 
             {/* Typing indicator */}
             {loading && (
-              <div className="message-row assistant">
-                <div className="message assistant typing-message">
-                  <div className="typing-label">
-                    SEnSRS AI
-                  </div>
+  <div className="message-row assistant">
+    <div className="message assistant typing-message">
+      <div className="typing-label">
+        SEnSRS AI is typing...
+      </div>
 
-                  <div className="typing-indicator">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                  </div>
-                </div>
-              </div>
-            )}
+      <div
+        className="typing-indicator"
+        aria-label="SEnSRS AI is responding"
+        role="status"
+      >
+        <span />
+        <span />
+        <span />
+      </div>
+    </div>
+  </div>
+)}
 
             <div ref={messagesEndRef} />
           </div>

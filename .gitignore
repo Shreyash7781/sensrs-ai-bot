@@ -26,3 +26,11 @@ Thumbs.db
 
 # Python cache
 .pytest_cache/
+# Local vector database
+chroma_db/
+
+# Generated crawler data and reports
+reports/
+
+# Local backup files
+*_backup.py
