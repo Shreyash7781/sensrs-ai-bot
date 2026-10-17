@@ -1,0 +1,61 @@
+PAGE_TITLE: Publications | SEnSRS - IIT Ropar
+PAGE_URL: https://sensrs.com/publications/
+
++01881-232632
+Publications
+This page showcases a curated list of research publications with detailed metadata including authors, DOIs, publication types, and citation status.
+1
+Evolution of scatterometers in earth observations: A tutorial on products, applications and algorithms
+Authors:
+Sartajvir Singh, Reet Kamal Tiwari, Vishakha Sood, Neelam Dahiya, Gurwinder Singh, Apoorva Sharma, Ravneet Kaur
+DOI:
+10.1016/B978-0-443-31380-6.00014-3
+2026
+Book Chapter
+Earth Observation using Scatterometers (Elsevier)
+Elsevier
+Book Chapter
+2
+Comparative analysis of C-Band and Ku-band-based scatterometers
+Authors:
+Vishal Dutt, Ganesh Kumar Sethi, Sartajvir Singh
+DOI:
+10.1016/B978-0-443-31380-6.00008-8
+2026
+Book Chapter
+Earth Observation using Scatterometers (Elsevier)
+Elsevier
+Book Chapter
+3
+Scatterometer for the monitoring of seasonal dynamics of snow cover melt
+Authors:
+Rajinder Kaur, Ganesh Kumar Sethi, Sartajvir Singh
+DOI:
+10.1016/B978-0-443-31380-6.00006-4
+2026
+Book Chapter
+Earth Observation using Scatterometers (Elsevier)
+Elsevier
+Book Chapter
+4
+Enhanced resolution cryosphere analysis with pan-sharpening of scatterometer dataset
+Authors:
+Rajinder Kaur, Ganesh Kumar Sethi, Sartajvir Singh
+DOI:
+10.1016/B978-0-443-31380-6.00012-X
+2026
+Book Chapter
+Earth Observation using Scatterometers (Elsevier)
+Elsevier
+Book Chapter
+5
+AI-Based framework for real-time snow-cover analysis over western himalayas using scatterometer dataset
+Authors:
+Vishal Dutt, Ganesh Kumar Sethi, Sartajvir Singh
+DOI:
+10.1016/B978-0-443-31380-6.00005-2
+2026
+Book Chapter
+Earth Observation using Scatterometers (Elsevier)
+Elsevier
+Book Chapter

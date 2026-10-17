@@ -1,0 +1,165 @@
+PAGE_TITLE: SEnSRS - IIT Ropar
+PAGE_URL: https://sensrs.com/events/current/
+
++01881-232632
+Newsletter :
+Fifth Edition of SEnSRS Newsletter Out now!
+Internship :
+Summer Internship 2026 Applications Open
+Centre of Excellence
+Socio-Environmental Sustainability for
+River Sand-mining
+The CoE SEnSRS at IIT Ropar, established by IIT Ropar with seed funding from the Government of Punjab, is dedicated to ensuring socio-environmental sustainability in river sand mining. We combine advanced geospatial technologies, field research, and policy engagement to safeguard communities and ecosystems while enabling responsible development.
+Watch Intro
+Contact Us
+Advanced Geospatial Technologies
+Cutting-edge remote sensing and GIS for precise monitoring of sand mining activities and environmental impacts.
+Comprehensive Field Research
+Ground-truthing studies and ecological assessments to validate data and understand real-world impacts.
+Policy Engagement
+Partnering with institutions and communities to create responsible sand mining strategies for sustainable growth.
+Announcements
+Announcements
+MAR 17, 2026
+Hiring :
+PowerBI Expert — Applications Open: 11 Mar 2026 to 17 Mar 2026 [Last Date: 17 Mar 2026]
+JAN 27, 2026
+Invitation :
+GeoAI CON Inter-Session (Workshop & Meet) [Last Date: 27 Jan 2026]
+JAN 25, 2026
+PhD Admissions :
+Socio-Environmental Sustainability for River Sand-mining [Last Date: 25 Jan 2026]
+NOV 24, 2025
+Hiring :
+Junior Research Fellow (JRF) [Last Date: 29 Nov 2025]
+NOV 24, 2025
+Hiring :
+Field Investigator [Last Date: 11 Nov 2025]
+Ready to Discuss Your Project?
+Book a free consultation with our experts and get professional insights tailored to your needs.
+Book an Appointment
+Career
+Your profile could be a strong fit for opportunities at SEnSRS
+Short Term (3-6 Months) Internship
+IIT Ropar (On-site)
+•
+ST-Internship
+Apply Now
+01
+/
+03
+Join our mission for socio-environmental sustainability
+Gallery
+View Image Details
+View Image Details
+View Image Details
+View Image Details
+View Image Details
+View More
+Video Gallery
+Videos
+View All
+Videos
+View All
+Recent Publications
+1
+Evolution of scatterometers in earth observations: A tutorial on products, applications and algorithms
+Authors:
+Sartajvir Singh, Reet Kamal Tiwari, Vishakha Sood, Neelam Dahiya, Gurwinder Singh, Apoorva Sharma, Ravneet Kaur
+DOI:
+10.1016/B978-0-443-31380-6.00014-3
+2026
+Book Chapter
+Earth Observation using Scatterometers (Elsevier)
+Elsevier
+Book Chapter
+2
+Comparative analysis of C-Band and Ku-band-based scatterometers
+Authors:
+Vishal Dutt, Ganesh Kumar Sethi, Sartajvir Singh
+DOI:
+10.1016/B978-0-443-31380-6.00008-8
+2026
+Book Chapter
+Earth Observation using Scatterometers (Elsevier)
+Elsevier
+Book Chapter
+3
+Scatterometer for the monitoring of seasonal dynamics of snow cover melt
+Authors:
+Rajinder Kaur, Ganesh Kumar Sethi, Sartajvir Singh
+DOI:
+10.1016/B978-0-443-31380-6.00006-4
+2026
+Book Chapter
+Earth Observation using Scatterometers (Elsevier)
+Elsevier
+Book Chapter
+4
+Enhanced resolution cryosphere analysis with pan-sharpening of scatterometer dataset
+Authors:
+Rajinder Kaur, Ganesh Kumar Sethi, Sartajvir Singh
+DOI:
+10.1016/B978-0-443-31380-6.00012-X
+2026
+Book Chapter
+Earth Observation using Scatterometers (Elsevier)
+Elsevier
+Book Chapter
+View More
+Events
+GeoAI CON Inter-Session
+Hands-on Workshop & Strategic Meet.
+View More
+→
+GeoAI CON 2025
+Summit and Hand-On tutorials.
+View More
+→
+PAMC 2025
+19th meeting of PAMC 2025.
+View More
+→
+Services
+Drone Mapping & Surveying
+Advanced aerial survey and inspection solutions using high-performance DJI enterprise drones for mapping, GIS, and industrial monitoring.
+Read more
+DGPS Surveying
+High-precision geospatial solutions featuring the Trimble R10 GNSS Receiver and X9 3D Laser Scanning System for accurate coordinates and reality capture.
+Read more
+Bathymetry Survey
+Precision underwater mapping and survey solutions using advanced unmanned surface vehicles and echo sounders for hydrographic surveys.
+Read more
+Web Development
+Specialized web development exclusively for the hosting, visualization, and dissemination of data generated from our Drone Mapping, DGPS Surveying, and Bathymetric studies. We build high-performance, GIS-integrated platforms using HTML, CSS, and JS for survey result delivery.
+Read more
+Dashboard Development
+Advanced data analytics and Power BI dashboards specifically tailored for monitoring and analyzing Drone, DGPS, and Bathymetry survey data. We convert raw geospatial results into interactive, actionable insights.
+Read more
+App Development
+Specialized mobile application development for iPhone and Android, designed to streamline Drone, DGPS, and Bathymetry field data collection and monitoring.
+Read more
+Intellectual Property
+Expert help with protecting your ideas, including brand name registration, checking for existing patents, and managing your legal rights.
+Read more
+Drone Mapping & Surveying
+Advanced aerial survey and inspection solutions using high-performance DJI enterprise drones for mapping, GIS, and industrial monitoring.
+Read more
+DGPS Surveying
+High-precision geospatial solutions featuring the Trimble R10 GNSS Receiver and X9 3D Laser Scanning System for accurate coordinates and reality capture.
+Read more
+Bathymetry Survey
+Precision underwater mapping and survey solutions using advanced unmanned surface vehicles and echo sounders for hydrographic surveys.
+Read more
+Web Development
+Specialized web development exclusively for the hosting, visualization, and dissemination of data generated from our Drone Mapping, DGPS Surveying, and Bathymetric studies. We build high-performance, GIS-integrated platforms using HTML, CSS, and JS for survey result delivery.
+Read more
+Dashboard Development
+Advanced data analytics and Power BI dashboards specifically tailored for monitoring and analyzing Drone, DGPS, and Bathymetry survey data. We convert raw geospatial results into interactive, actionable insights.
+Read more
+App Development
+Specialized mobile application development for iPhone and Android, designed to streamline Drone, DGPS, and Bathymetry field data collection and monitoring.
+Read more
+Intellectual Property
+Expert help with protecting your ideas, including brand name registration, checking for existing patents, and managing your legal rights.
+Read more

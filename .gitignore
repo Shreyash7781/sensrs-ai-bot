@@ -30,7 +30,8 @@ Thumbs.db
 chroma_db/
 
 # Generated crawler data and reports
-reports/
+reports/*
+!reports/page_manifest.json
 
 # Local backup files
 *_backup.py

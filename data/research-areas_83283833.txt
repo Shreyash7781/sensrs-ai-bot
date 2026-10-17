@@ -1,0 +1,23 @@
+PAGE_TITLE: SEnSRS - IIT Ropar
+PAGE_URL: https://sensrs.com/research-areas/
+
+Environmental Monitoring
+Environmental Monitoring & Restoration
+Unregulated sand extraction leads to riverbank erosion, groundwater depletion, biodiversity loss, and vegetation degradation. Using geospatial and field-based methods, we assess these impacts to design strategies for ecological restoration and long-term sustainability.
+Project: Safe Depth of Mining Study
+Researching permissible mining depths at out-of-riverbed sites using DGPS, UAV surveys, and chain-mounted data collectors, with findings shared in an upcoming technical report.
+Policy & Governance
+Governance, Policy & Legal Frameworks
+Mining is not only a geological activity but also a policy and governance challenge. Our work examines existing policies, identifies gaps, and recommends transparent, community-centered frameworks such as benefit-sharing agreements and social license to operate models.
+Project: Policy Impact Review for Punjab
+Assessing the effectiveness of current policies, comparing governance of public vs. government mining sites, and proposing reforms to enhance accountability.
+Tech & AI Monitoring
+Technology & AI for Mining Monitoring
+We leverage drones, GIS, satellite remote sensing, and AI-driven predictive analytics to ensure real-time monitoring of mining activities. These tools provide early warning for illegal mining and improve accuracy in District Survey Reports (DSRs).
+Project: District Survey Report Vetting
+IIT Ropar’s CoE has vetted multiple DSRs (SAS Nagar, Taran Taran, Ferozpur, Fazilka) and continues to review others using geospatial technologies for transparency and scientific accuracy.
+Sustainable Practices
+Sustainable Practices & Best Management Models
+Our center advocates for ethical and sustainable sand mining by integrating scientific guidelines, community participation, and ecological safeguards. We promote frameworks where economic benefits are balanced with social and environmental responsibilities.
+Project: Community Benefit Sharing Framework
+Developing a model for fair revenue distribution and community compensation in Punjab, drawing on global best practices in sustainable mining.

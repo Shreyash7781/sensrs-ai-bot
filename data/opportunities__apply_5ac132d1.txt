@@ -1,0 +1,81 @@
+PAGE_TITLE: SEnSRS - IIT Ropar
+PAGE_URL: https://sensrs.com/opportunities/apply/
+
++01881-232632
+Join SEnSRS at IIT Ropar
+Internship & Research Opportunities
+Application Form
+Center of Excellence in Socio-Environmental Sustainability for River Sand Mining
+Indian Institute of Technology Ropar
+Apply under Special call (If any)
+Call for Developers & Technical Experts (Jan 2026 - June 2026) Website Developers (Experienced Website Developers proficient in modern web technologies) Power BI Experts (Expert in data modeling, DAX, dashboards, integration, reporting, performance, GIS datasets preferred.) Full Stack Developers (Strong problem-solving skills and experience in end-to-end application development are preferred.) Mobile App Developers (Develop high-performance Android and iOS applications with seamless APIs and intuitive user experience.) Frontend Developer (Building Modern Web Experiences.) Backend Developer (Building secure, scalable backend systems and cloud solutions with AWS expertise.)
+Personal Details
+Full Name *
+Date of Birth *
+Gender *
+Select... Male Female Other Prefer not to say
+Email Address *
+Contact Number *
+PAN Card Number *
+Aadhaar Card Number *
+Current Address *
+Permanent Address *
+Academic Background
+Current Status *
+Select... Undergraduate Student Postgraduate Student PhD Scholar Recent Graduate (within 2 years)
+Institution / University Name *
+Degree & Major / Field of Study *
+Year of Graduation *
+Current CGPA / Percentage *
+Internship Details
+Internship Category *
+Long-Term Internship (6–12 Months)
+Extended research-oriented internship, suitable for thesis or dissertation work.
+Short-Term Internship (3–6 Months)
+Intensive internship focused on specific tasks or field surveys.
+Project-Based Internship (6 Months)
+Task-oriented engagement tied to a defined deliverable.
+Areas of Interest
+Select your preferred work areas *
+Drone Survey (Multispectral, Photogrammetry, Thermal, Hyperspectral)
+Bathymetry Survey (UAV Boat, Bathycat)
+DEM Development
+DGPS Survey
+Total Laser Scanning
+Automation (Drone Development)
+District Survey Report Preparation and Auditing
+Website Development (Front End)
+Website Development (Back End)
+Full Stack Web Developement
+GIS-Based Dashboard Web Portal Development
+Other
+Why are you interested? (Optional)
+Experience & Skills
+Relevant Coursework & Academic Projects *
+Previous Internship / Field Experience
+Technical Skills *
+GIS / Remote Sensing (ArcGIS, QGIS, etc.)
+Drone / RTK-DGPS Surveying
+Data Analysis / Statistics (Excel, R, Python)
+Report Writing & Documentation
+Policy & Regulation Review
+Website Development
+Dashboard Development
+Other
+Documents & Timeline
+Upload Resume / CV *
+Max size: 10MB | Accepted formats: PDF, DOC, DOCX
+Upload PAN Card (PDF) *
+Max size: 5MB | Format: PDF only
+Upload Aadhaar Card (PDF) *
+Max size: 5MB | Format: PDF only
+Preferred Start Date *
+Preferred End Date *
+Declaration & Terms
+I hereby declare *
+All information provided in this application is true and accurate to the best of my knowledge. I understand that any false information may lead to disqualification or termination of my internship.
+I agree to the Terms & Conditions *
+Terms & Conditions
+I have read, understood and agree to abide by the internship rules and professional standards mentioned in the terms and conditions.
+Submit Application
+By submitting, you agree to our terms and privacy policy
